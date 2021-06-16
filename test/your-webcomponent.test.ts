@@ -1,7 +1,7 @@
-import { html, fixture, expect } from '@open-wc/testing';
+/* import { html, fixture, expect } from '@open-wc/testing';
 
-import type { YourWebComponent } from '../src/your-webcomponent';
-import '../src/your-webcomponent';
+import type { YourWebComponent } from '../src/plant-tracker';
+import '../src/plant-tracker';
 
 describe('YourWebComponent', () => {
   it('has a default title "Hey there" and counter 5', async () => {
@@ -37,4 +37,4 @@ describe('YourWebComponent', () => {
 
     await expect(el).shadowDom.to.be.accessible();
   });
-});
+}); */
