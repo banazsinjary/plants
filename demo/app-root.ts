@@ -1,13 +1,13 @@
 import { html, css, LitElement, customElement } from 'lit-element';
-import '../src/your-webcomponent';
+import '../src/plant-tracker';
 
 @customElement('app-root')
 export class AppRoot extends LitElement {
   render() {
     return html`
-      <your-webcomponent title="Hello">
+      <plant-tracker title="Hello">
         <div slot="my-slot">Some LightDOM Content</div>
-      </your-webcomponent>
+      </plant-tracker>
     `;
   }
 
